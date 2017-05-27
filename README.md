@@ -1,0 +1,2 @@
+# iPhoneHTTPServerToJs
+这个项目主旨在于建立一个iPhone端服务器,将JS文件资源存在沙盒里边,让JS页面通过访问服务器的方式拿到资源
