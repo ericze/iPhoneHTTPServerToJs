@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37603CBD1EDC0A1D006949E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37603CBC1EDC0A1D006949E3 /* main.m */; };
+		37603CC01EDC0A1D006949E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37603CBF1EDC0A1D006949E3 /* AppDelegate.m */; };
+		37603CC31EDC0A1D006949E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37603CC21EDC0A1D006949E3 /* ViewController.m */; };
+		37603CC61EDC0A1D006949E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37603CC41EDC0A1D006949E3 /* Main.storyboard */; };
+		37603CC81EDC0A1D006949E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37603CC71EDC0A1D006949E3 /* Assets.xcassets */; };
+		37603CCB1EDC0A1D006949E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37603CC91EDC0A1D006949E3 /* LaunchScreen.storyboard */; };
+		37603CD61EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37603CD51EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests.m */; };
+		37603CE11EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37603CE01EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests.m */; };
+		5C21A72E13C47D975CC457A7 /* libPods-iPhoneHTTPServerToJsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89484CFF8B9DA96F698B5C38 /* libPods-iPhoneHTTPServerToJsTests.a */; };
+		7077E25C89E1895C84B5B740 /* libPods-iPhoneHTTPServerToJs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F80656C8ADAFA5065BEB6CF6 /* libPods-iPhoneHTTPServerToJs.a */; };
+		74011BCA36F3C712E686CD90 /* libPods-iPhoneHTTPServerToJsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D106B4CE86F8CCCF22B838 /* libPods-iPhoneHTTPServerToJsUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37603CD21EDC0A1D006949E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37603CB01EDC0A1D006949E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37603CB71EDC0A1D006949E3;
+			remoteInfo = iPhoneHTTPServerToJs;
+		};
+		37603CDD1EDC0A1D006949E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37603CB01EDC0A1D006949E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37603CB71EDC0A1D006949E3;
+			remoteInfo = iPhoneHTTPServerToJs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088376EB1EFFC59FF60E56D2 /* Pods-iPhoneHTTPServerToJsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneHTTPServerToJsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPhoneHTTPServerToJsTests/Pods-iPhoneHTTPServerToJsTests.release.xcconfig"; sourceTree = "<group>"; };
+		08D106B4CE86F8CCCF22B838 /* libPods-iPhoneHTTPServerToJsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPhoneHTTPServerToJsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A7DCB37DF1DF88FBB9F5B0 /* Pods-iPhoneHTTPServerToJsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneHTTPServerToJsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPhoneHTTPServerToJsUITests/Pods-iPhoneHTTPServerToJsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1911D7A8A8AC7D01B50895CF /* Pods-iPhoneHTTPServerToJsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneHTTPServerToJsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPhoneHTTPServerToJsUITests/Pods-iPhoneHTTPServerToJsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37603CB81EDC0A1D006949E3 /* iPhoneHTTPServerToJs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneHTTPServerToJs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37603CBC1EDC0A1D006949E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37603CBE1EDC0A1D006949E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37603CBF1EDC0A1D006949E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37603CC11EDC0A1D006949E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37603CC21EDC0A1D006949E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37603CC51EDC0A1D006949E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37603CC71EDC0A1D006949E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37603CCA1EDC0A1D006949E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37603CCC1EDC0A1D006949E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37603CD11EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneHTTPServerToJsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37603CD51EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneHTTPServerToJsTests.m; sourceTree = "<group>"; };
+		37603CD71EDC0A1D006949E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37603CDC1EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneHTTPServerToJsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37603CE01EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneHTTPServerToJsUITests.m; sourceTree = "<group>"; };
+		37603CE21EDC0A1D006949E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79562661EB77120B2BDA6CE3 /* Pods-iPhoneHTTPServerToJs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneHTTPServerToJs.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPhoneHTTPServerToJs/Pods-iPhoneHTTPServerToJs.release.xcconfig"; sourceTree = "<group>"; };
+		875FE8809382C71652340C77 /* Pods-iPhoneHTTPServerToJs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneHTTPServerToJs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPhoneHTTPServerToJs/Pods-iPhoneHTTPServerToJs.debug.xcconfig"; sourceTree = "<group>"; };
+		89484CFF8B9DA96F698B5C38 /* libPods-iPhoneHTTPServerToJsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPhoneHTTPServerToJsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD64031EA320CC8CE766EB56 /* Pods-iPhoneHTTPServerToJsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneHTTPServerToJsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPhoneHTTPServerToJsTests/Pods-iPhoneHTTPServerToJsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F80656C8ADAFA5065BEB6CF6 /* libPods-iPhoneHTTPServerToJs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPhoneHTTPServerToJs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37603CB51EDC0A1D006949E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7077E25C89E1895C84B5B740 /* libPods-iPhoneHTTPServerToJs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37603CCE1EDC0A1D006949E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C21A72E13C47D975CC457A7 /* libPods-iPhoneHTTPServerToJsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37603CD91EDC0A1D006949E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74011BCA36F3C712E686CD90 /* libPods-iPhoneHTTPServerToJsUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37603CAF1EDC0A1D006949E3 = {
+			isa = PBXGroup;
+			children = (
+				37603CBA1EDC0A1D006949E3 /* iPhoneHTTPServerToJs */,
+				37603CD41EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests */,
+				37603CDF1EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests */,
+				37603CB91EDC0A1D006949E3 /* Products */,
+				72B146C7D4FF00724DF43C76 /* Pods */,
+				C5C12D92473158048DF0713B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37603CB91EDC0A1D006949E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37603CB81EDC0A1D006949E3 /* iPhoneHTTPServerToJs.app */,
+				37603CD11EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests.xctest */,
+				37603CDC1EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37603CBA1EDC0A1D006949E3 /* iPhoneHTTPServerToJs */ = {
+			isa = PBXGroup;
+			children = (
+				37603CBE1EDC0A1D006949E3 /* AppDelegate.h */,
+				37603CBF1EDC0A1D006949E3 /* AppDelegate.m */,
+				37603CC11EDC0A1D006949E3 /* ViewController.h */,
+				37603CC21EDC0A1D006949E3 /* ViewController.m */,
+				37603CC41EDC0A1D006949E3 /* Main.storyboard */,
+				37603CC71EDC0A1D006949E3 /* Assets.xcassets */,
+				37603CC91EDC0A1D006949E3 /* LaunchScreen.storyboard */,
+				37603CCC1EDC0A1D006949E3 /* Info.plist */,
+				37603CBB1EDC0A1D006949E3 /* Supporting Files */,
+			);
+			path = iPhoneHTTPServerToJs;
+			sourceTree = "<group>";
+		};
+		37603CBB1EDC0A1D006949E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37603CBC1EDC0A1D006949E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37603CD41EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests */ = {
+			isa = PBXGroup;
+			children = (
+				37603CD51EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests.m */,
+				37603CD71EDC0A1D006949E3 /* Info.plist */,
+			);
+			path = iPhoneHTTPServerToJsTests;
+			sourceTree = "<group>";
+		};
+		37603CDF1EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37603CE01EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests.m */,
+				37603CE21EDC0A1D006949E3 /* Info.plist */,
+			);
+			path = iPhoneHTTPServerToJsUITests;
+			sourceTree = "<group>";
+		};
+		72B146C7D4FF00724DF43C76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				875FE8809382C71652340C77 /* Pods-iPhoneHTTPServerToJs.debug.xcconfig */,
+				79562661EB77120B2BDA6CE3 /* Pods-iPhoneHTTPServerToJs.release.xcconfig */,
+				AD64031EA320CC8CE766EB56 /* Pods-iPhoneHTTPServerToJsTests.debug.xcconfig */,
+				088376EB1EFFC59FF60E56D2 /* Pods-iPhoneHTTPServerToJsTests.release.xcconfig */,
+				1911D7A8A8AC7D01B50895CF /* Pods-iPhoneHTTPServerToJsUITests.debug.xcconfig */,
+				12A7DCB37DF1DF88FBB9F5B0 /* Pods-iPhoneHTTPServerToJsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5C12D92473158048DF0713B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F80656C8ADAFA5065BEB6CF6 /* libPods-iPhoneHTTPServerToJs.a */,
+				89484CFF8B9DA96F698B5C38 /* libPods-iPhoneHTTPServerToJsTests.a */,
+				08D106B4CE86F8CCCF22B838 /* libPods-iPhoneHTTPServerToJsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37603CB71EDC0A1D006949E3 /* iPhoneHTTPServerToJs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37603CE51EDC0A1D006949E3 /* Build configuration list for PBXNativeTarget "iPhoneHTTPServerToJs" */;
+			buildPhases = (
+				0388072AD013E6448D03FEB6 /* 📦 Check Pods Manifest.lock */,
+				37603CB41EDC0A1D006949E3 /* Sources */,
+				37603CB51EDC0A1D006949E3 /* Frameworks */,
+				37603CB61EDC0A1D006949E3 /* Resources */,
+				FC889E4964A68C4DE2FA36EA /* 📦 Embed Pods Frameworks */,
+				EE7B590608F6078314E3A0B8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneHTTPServerToJs;
+			productName = iPhoneHTTPServerToJs;
+			productReference = 37603CB81EDC0A1D006949E3 /* iPhoneHTTPServerToJs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37603CD01EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37603CE81EDC0A1D006949E3 /* Build configuration list for PBXNativeTarget "iPhoneHTTPServerToJsTests" */;
+			buildPhases = (
+				6939F612BF1A2F793903FB97 /* 📦 Check Pods Manifest.lock */,
+				37603CCD1EDC0A1D006949E3 /* Sources */,
+				37603CCE1EDC0A1D006949E3 /* Frameworks */,
+				37603CCF1EDC0A1D006949E3 /* Resources */,
+				65EA38C2CA6BDDE31EE71A1D /* 📦 Embed Pods Frameworks */,
+				DF0275431359A013F2CCEDC6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37603CD31EDC0A1D006949E3 /* PBXTargetDependency */,
+			);
+			name = iPhoneHTTPServerToJsTests;
+			productName = iPhoneHTTPServerToJsTests;
+			productReference = 37603CD11EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37603CDB1EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37603CEB1EDC0A1D006949E3 /* Build configuration list for PBXNativeTarget "iPhoneHTTPServerToJsUITests" */;
+			buildPhases = (
+				07999F5BC107454A8E24B885 /* 📦 Check Pods Manifest.lock */,
+				37603CD81EDC0A1D006949E3 /* Sources */,
+				37603CD91EDC0A1D006949E3 /* Frameworks */,
+				37603CDA1EDC0A1D006949E3 /* Resources */,
+				8F3DE8D57358088EB6A89267 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37603CDE1EDC0A1D006949E3 /* PBXTargetDependency */,
+			);
+			name = iPhoneHTTPServerToJsUITests;
+			productName = iPhoneHTTPServerToJsUITests;
+			productReference = 37603CDC1EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37603CB01EDC0A1D006949E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = EricZe;
+				TargetAttributes = {
+					37603CB71EDC0A1D006949E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X55K4VEDUQ;
+						ProvisioningStyle = Automatic;
+					};
+					37603CD01EDC0A1D006949E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X55K4VEDUQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37603CB71EDC0A1D006949E3;
+					};
+					37603CDB1EDC0A1D006949E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X55K4VEDUQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37603CB71EDC0A1D006949E3;
+					};
+				};
+			};
+			buildConfigurationList = 37603CB31EDC0A1D006949E3 /* Build configuration list for PBXProject "iPhoneHTTPServerToJs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37603CAF1EDC0A1D006949E3;
+			productRefGroup = 37603CB91EDC0A1D006949E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37603CB71EDC0A1D006949E3 /* iPhoneHTTPServerToJs */,
+				37603CD01EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests */,
+				37603CDB1EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37603CB61EDC0A1D006949E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37603CCB1EDC0A1D006949E3 /* LaunchScreen.storyboard in Resources */,
+				37603CC81EDC0A1D006949E3 /* Assets.xcassets in Resources */,
+				37603CC61EDC0A1D006949E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37603CCF1EDC0A1D006949E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37603CDA1EDC0A1D006949E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0388072AD013E6448D03FEB6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		07999F5BC107454A8E24B885 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65EA38C2CA6BDDE31EE71A1D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPhoneHTTPServerToJsTests/Pods-iPhoneHTTPServerToJsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6939F612BF1A2F793903FB97 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3DE8D57358088EB6A89267 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPhoneHTTPServerToJsUITests/Pods-iPhoneHTTPServerToJsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0275431359A013F2CCEDC6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPhoneHTTPServerToJsTests/Pods-iPhoneHTTPServerToJsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7B590608F6078314E3A0B8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPhoneHTTPServerToJs/Pods-iPhoneHTTPServerToJs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC889E4964A68C4DE2FA36EA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPhoneHTTPServerToJs/Pods-iPhoneHTTPServerToJs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37603CB41EDC0A1D006949E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37603CC31EDC0A1D006949E3 /* ViewController.m in Sources */,
+				37603CC01EDC0A1D006949E3 /* AppDelegate.m in Sources */,
+				37603CBD1EDC0A1D006949E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37603CCD1EDC0A1D006949E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37603CD61EDC0A1D006949E3 /* iPhoneHTTPServerToJsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37603CD81EDC0A1D006949E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37603CE11EDC0A1D006949E3 /* iPhoneHTTPServerToJsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37603CD31EDC0A1D006949E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37603CB71EDC0A1D006949E3 /* iPhoneHTTPServerToJs */;
+			targetProxy = 37603CD21EDC0A1D006949E3 /* PBXContainerItemProxy */;
+		};
+		37603CDE1EDC0A1D006949E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37603CB71EDC0A1D006949E3 /* iPhoneHTTPServerToJs */;
+			targetProxy = 37603CDD1EDC0A1D006949E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37603CC41EDC0A1D006949E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37603CC51EDC0A1D006949E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37603CC91EDC0A1D006949E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37603CCA1EDC0A1D006949E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37603CE31EDC0A1D006949E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37603CE41EDC0A1D006949E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37603CE61EDC0A1D006949E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875FE8809382C71652340C77 /* Pods-iPhoneHTTPServerToJs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X55K4VEDUQ;
+				INFOPLIST_FILE = iPhoneHTTPServerToJs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apin.iPhoneHTTPServerToJs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37603CE71EDC0A1D006949E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79562661EB77120B2BDA6CE3 /* Pods-iPhoneHTTPServerToJs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X55K4VEDUQ;
+				INFOPLIST_FILE = iPhoneHTTPServerToJs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apin.iPhoneHTTPServerToJs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37603CE91EDC0A1D006949E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD64031EA320CC8CE766EB56 /* Pods-iPhoneHTTPServerToJsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X55K4VEDUQ;
+				INFOPLIST_FILE = iPhoneHTTPServerToJsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apin.iPhoneHTTPServerToJsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneHTTPServerToJs.app/iPhoneHTTPServerToJs";
+			};
+			name = Debug;
+		};
+		37603CEA1EDC0A1D006949E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088376EB1EFFC59FF60E56D2 /* Pods-iPhoneHTTPServerToJsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X55K4VEDUQ;
+				INFOPLIST_FILE = iPhoneHTTPServerToJsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apin.iPhoneHTTPServerToJsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneHTTPServerToJs.app/iPhoneHTTPServerToJs";
+			};
+			name = Release;
+		};
+		37603CEC1EDC0A1D006949E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1911D7A8A8AC7D01B50895CF /* Pods-iPhoneHTTPServerToJsUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X55K4VEDUQ;
+				INFOPLIST_FILE = iPhoneHTTPServerToJsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apin.iPhoneHTTPServerToJsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iPhoneHTTPServerToJs;
+			};
+			name = Debug;
+		};
+		37603CED1EDC0A1D006949E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A7DCB37DF1DF88FBB9F5B0 /* Pods-iPhoneHTTPServerToJsUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X55K4VEDUQ;
+				INFOPLIST_FILE = iPhoneHTTPServerToJsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apin.iPhoneHTTPServerToJsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iPhoneHTTPServerToJs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37603CB31EDC0A1D006949E3 /* Build configuration list for PBXProject "iPhoneHTTPServerToJs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37603CE31EDC0A1D006949E3 /* Debug */,
+				37603CE41EDC0A1D006949E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37603CE51EDC0A1D006949E3 /* Build configuration list for PBXNativeTarget "iPhoneHTTPServerToJs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37603CE61EDC0A1D006949E3 /* Debug */,
+				37603CE71EDC0A1D006949E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37603CE81EDC0A1D006949E3 /* Build configuration list for PBXNativeTarget "iPhoneHTTPServerToJsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37603CE91EDC0A1D006949E3 /* Debug */,
+				37603CEA1EDC0A1D006949E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37603CEB1EDC0A1D006949E3 /* Build configuration list for PBXNativeTarget "iPhoneHTTPServerToJsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37603CEC1EDC0A1D006949E3 /* Debug */,
+				37603CED1EDC0A1D006949E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37603CB01EDC0A1D006949E3 /* Project object */;
+}
