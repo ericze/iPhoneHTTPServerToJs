@@ -8,6 +8,7 @@ target 'iPhoneHTTPServerToJs' do
   # Pods for iPhoneHTTPServerToJs
   pod 'SSZipArchive'
   pod 'AFNetworking'
+  pod 'CocoaHTTPServer'
   target 'iPhoneHTTPServerToJsTests' do
     inherit! :search_paths
     # Pods for testing

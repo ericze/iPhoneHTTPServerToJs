@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#define webPath [[NSBundle mainBundle] pathForResource:@"Web" ofType:nil]
+
+#define KSERVERURL @"http://pccdn.weshape3d.com"
 @interface AppDelegate ()
 
 @end
@@ -16,10 +19,44 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+     [self configLocalHttpServer];
     // Override point for customization after application launch.
     return YES;
 }
 
+#pragma mark -- 本地服务器 --
+#pragma mark -服务器
+#pragma mark - 搭建本地服务器 并且启动
+- (void)configLocalHttpServer{
+    _localHttpServer = [[HTTPServer alloc] init];
+    [_localHttpServer setType:@"_http.tcp"];
+    
+    NSFileManager *fileManager = [[NSFileManager alloc] init];
+    NSLog(@"%@",webPath);
+    
+    
+    if (![fileManager fileExistsAtPath:webPath]){
+        
+        NSLog(@"File path error!");
+    }else{
+        NSString *webLocalPath = webPath;
+        [_localHttpServer setDocumentRoot:webLocalPath];
+        NSLog(@"webLocalPath:%@",webLocalPath);
+        [self startServer];
+    }
+}
+- (void)startServer
+{
+    
+    NSError *error;
+    if([_localHttpServer start:&error]){
+        NSLog(@"Started HTTP Server on port %hu", [_localHttpServer listeningPort]);
+        self.port = [NSString stringWithFormat:@"%d",[_localHttpServer listeningPort]];
+    }
+    else{
+        NSLog(@"Error starting HTTP Server: %@", error);
+    }
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

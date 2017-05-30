@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import <SSZipArchive.h>
 #import <AFNetworking.h>
+
+
+
 //http://octgh9scz.bkt.clouddn.com/index.zip?attname=&e=1495881439&token=LNefbQ5CufvndBztjWvk21WSnMYonbt9dtsORbSJ:-rQaaUQJ7lhoT9Wc_Zm80lNtr3s
 @interface ViewController ()<SSZipArchiveDelegate>
 @property(nonatomic,strong)UIWebView *webView;
@@ -25,6 +28,7 @@
     NSString *ourDocumentPath =[documentPaths objectAtIndex:0];
     NSString *downloadStr = [self DownloadTextFile:@"http://octgh9scz.bkt.clouddn.com/index.zip?attname=&e=1495881439&token=LNefbQ5CufvndBztjWvk21WSnMYonbt9dtsORbSJ:-rQaaUQJ7lhoT9Wc_Zm80lNtr3s" fileName:@"index.zip"];
     [self OpenZip:downloadStr unzipto:[NSString stringWithFormat:@"%@/index.html",ourDocumentPath]];
+   
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -45,7 +49,7 @@
         NSURL *documentsDirectoryURL = [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:nil];
         return [documentsDirectoryURL URLByAppendingPathComponent:_fileName];
     } completionHandler:^(NSURLResponse *response, NSURL *filePath, NSError *error) {
-        NSLog(@"File downloaded to: %@", filePath);
+      //  NSLog(@"File downloaded to: %@", filePath);
         NSString *str = [NSString stringWithFormat:@"%@/index.html",ourDocumentPath];
         [self OpenZip:[NSString stringWithFormat:@"%@/index.zip",ourDocumentPath] unzipto:ourDocumentPath];
         NSString *html = [NSString stringWithContentsOfFile:str encoding:NSUTF8StringEncoding error:nil];
