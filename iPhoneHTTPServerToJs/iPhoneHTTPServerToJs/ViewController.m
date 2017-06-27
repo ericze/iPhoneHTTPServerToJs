@@ -26,7 +26,7 @@
     
     NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,  NSUserDomainMask,YES);//使用C函数NSSearchPathForDirectoriesInDomains来获得沙盒中目录的全路径。
     NSString *ourDocumentPath =[documentPaths objectAtIndex:0];
-    NSString *downloadStr = [self DownloadTextFile:@"http://octgh9scz.bkt.clouddn.com/index.zip?attname=&e=1495881439&token=LNefbQ5CufvndBztjWvk21WSnMYonbt9dtsORbSJ:-rQaaUQJ7lhoT9Wc_Zm80lNtr3s" fileName:@"index.zip"];
+    NSString *downloadStr = [self DownloadTextFile:@"http://octgh9scz.bkt.clouddn.com/index.zip?attname=&e=1496649700&token=LNefbQ5CufvndBztjWvk21WSnMYonbt9dtsORbSJ:7Be62jxmp7wwLVVXDt6FXGn93cE" fileName:@"index.zip"];
     [self OpenZip:downloadStr unzipto:[NSString stringWithFormat:@"%@/index.html",ourDocumentPath]];
    
     // Do any additional setup after loading the view, typically from a nib.
@@ -54,6 +54,7 @@
         [self OpenZip:[NSString stringWithFormat:@"%@/index.zip",ourDocumentPath] unzipto:ourDocumentPath];
         NSString *html = [NSString stringWithContentsOfFile:str encoding:NSUTF8StringEncoding error:nil];
         
+       self.webView.scalesPageToFit=YES;
         [self.webView loadHTMLString:html baseURL:nil];
     }];
     [downloadTask resume];
